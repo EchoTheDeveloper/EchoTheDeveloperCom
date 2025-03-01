@@ -5,12 +5,12 @@ body {
 }
 
 a {
-    color: rgb(90, 255, 75);
+    color: rgb(252, 80, 0);
     text-decoration: none;
 }
 
 a:hover {
-    color: #007400;
+    color: #643500;
     text-decoration: underline;
 }
 
