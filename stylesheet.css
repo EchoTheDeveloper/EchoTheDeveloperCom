@@ -10,7 +10,7 @@ a {
 }
 
 a:hover {
-    color: #643500;
+    color: #ff8800;
     text-decoration: underline;
 }
 
@@ -81,6 +81,7 @@ input::placeholder, textarea::placeholder {
 }
 
 .project-card button:hover {
-    background-color: #00ff00;
-    color: #1a1a1a;
+    background-color: #00d100;
+    border: 2px solid #00d100;
+    color: #030303;
 }
