@@ -1,13 +1,12 @@
 body {
-    background: #f4f4f4;
-    color: #222;
-    font-family: Arial, sans-serif;
+    background: #ffffff;
+    color: #111;
+    font-family: Helvetica, Arial, sans-serif;
     margin: 0;
-    padding: 20px;
 }
 
 a {
-    color: #0066cc;
+    color: #111;
     text-decoration: none;
 }
 
@@ -16,44 +15,45 @@ a:hover {
 }
 
 button {
-    background: #e0e0e0;
-    color: #222;
-    border: 1px solid #bbb;
-    padding: 8px 14px;
-    font-family: Arial, sans-serif;
+    background: #111;
+    color: #fff;
+    border: none;
+    padding: 10px 16px;
+    font-size: 14px;
     cursor: pointer;
 }
 
 button:hover {
-    background: #d5d5d5;
+    opacity: 0.85;
 }
 
 input,
 textarea {
-    background: #fff;
-    color: #222;
-    border: 1px solid #bbb;
-    padding: 8px;
-    font-family: Arial, sans-serif;
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-family: Helvetica, Arial, sans-serif;
+    width: 100%;
 }
 
 .projects-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    gap: 16px;
-    margin-top: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 24px;
+    margin-top: 30px;
 }
 
 .project-card {
     background: #fff;
-    padding: 16px;
-    border: 1px solid #ddd;
+    border: 1px solid #e5e5e5;
+    padding: 20px;
 }
 
 .project-card h4 {
-    margin: 0 0 10px 0;
+    margin: 0 0 12px 0;
+    font-size: 18px;
 }
 
 .project-card p {
-    margin: 0 0 12px 0;
+    margin: 0 0 16px 0;
+    color: #444;
 }
