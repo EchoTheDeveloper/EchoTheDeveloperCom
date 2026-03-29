@@ -1,13 +1,14 @@
 body {
-    background: #2b2b2b;
-    color: #00ff00;
-    font-family: Courier New, monospace;
+    background: #f4f4f4;
+    color: #222;
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 20px;
 }
 
 a {
-    color: #ff6600;
+    color: #0066cc;
+    text-decoration: none;
 }
 
 a:hover {
@@ -15,26 +16,25 @@ a:hover {
 }
 
 button {
-    background: #1a1a1a;
-    color: #00ff00;
-    border: 1px solid #00ff00;
+    background: #e0e0e0;
+    color: #222;
+    border: 1px solid #bbb;
     padding: 8px 14px;
-    font-family: Courier New, monospace;
+    font-family: Arial, sans-serif;
     cursor: pointer;
 }
 
 button:hover {
-    background: #00ff00;
-    color: #1a1a1a;
+    background: #d5d5d5;
 }
 
 input,
 textarea {
-    background: #1a1a1a;
-    color: #00ff00;
-    border: 1px solid #00ff00;
+    background: #fff;
+    color: #222;
+    border: 1px solid #bbb;
     padding: 8px;
-    font-family: Courier New, monospace;
+    font-family: Arial, sans-serif;
 }
 
 .projects-grid {
@@ -45,9 +45,9 @@ textarea {
 }
 
 .project-card {
-    background: #333;
+    background: #fff;
     padding: 16px;
-    border: 1px solid #444;
+    border: 1px solid #ddd;
 }
 
 .project-card h4 {
